@@ -17,3 +17,24 @@ body {
 
 /* ---------- NOTECARD ------------------------------------------------------ */
 
+.notecard {
+  box-sizing: border-box;
+  width: 450 px;
+  height: 150 px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #212121;
+  display: flex;
+}
+
+.notecard-left {
+  width: 60%;
+  background-color: blue;
+}
+
+.notecard-right {
+  width: 40%;
+  background-color: green;
+}
